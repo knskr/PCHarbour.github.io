@@ -1,0 +1,19 @@
+<rss version="2.0">
+    <channel>
+        <item>
+            <title>The best performing PCs in the city!</title>
+            <link>https://knskr.github.io/PCHarbour.github.io/index.html</link>
+            <description>The #1 shop for the best gaming and productivity rigs!</description>
+        </item>
+        <item>
+            <title>Discounts for newcomers!</title>
+            <link>https://knskr.github.io/PCHarbour.github.io/products.html</link>
+            <description>Your first purchase in the Harbour will be 15% off and free installation of OS and proprietary drivers!</description>
+        </item>
+        <item>
+            <title>Special discounts and bonuses for holidays!</title>
+            <link>https://knskr.github.io/PCHarbour.github.io/products.html</link>
+            <description>Wanna surprise someone for the holidays? Come to the Harbour and get a 20% discount on 3 components of your choice!</description>
+        </item>
+    </channel>
+</rss>
