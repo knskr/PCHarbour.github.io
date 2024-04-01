@@ -1,0 +1,40 @@
+@media screen and (max-width:470px){
+    #slider h2{
+        font-size: 15px;
+    }
+    #slider p{
+        font-size:20px;
+    }
+}
+@media screen and (max-width:335px) {
+    .navbar .navbar-brand h1{
+        font-size:25px;
+    }
+    #synopsis img{
+        height:70%;
+    }
+}
+@media screen and (max-width:767px) {
+    #autor .card img{
+        height:300px;
+        width: 350px;
+    }
+}
+@media screen and (max-width:390px) {
+    #autor .card img{
+        height:250px;
+        width: 200px;
+    }
+}
+@media screen and (max-width:1015px) {
+    #products .card-group .card img{
+        height:200px;
+        width:210px;
+    }
+}
+@media screen and (max-width:690px) {
+    #products .card-group .card img{
+        height:150px;
+        width:160px;
+    }
+}
