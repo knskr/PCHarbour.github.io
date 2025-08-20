@@ -1,180 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Welcome to the PC Harbour, the number one website for the best PC configurations in the city! 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Welcome to the PC Harbour, the number one website for the best PC configurations in the city! 
     Here we offer a wide range of prebuilt configurations - from the budget 1080p gaming PCs to the top of the shelf gaming and productivity rigs!
     We aim to please all of our customers with the best component choices for the best bang for buck performance you can get out of your budget!">
-    <meta name="keywords" content="pc, gaming pc, gaming configuration, gaming components, budget, budget pc, 1080p, 1440p, 4k">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
-    <link href="assets/css/responsive.css" rel="stylesheet" type="text/css">
-    <link href="assets/img/favicon.ico" rel="shortcut icon" type="image/x-icon">
-    <title>PC Harbour - The Best PC configurations!</title>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg cs-bg-black">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"><h1>PC <span>Harbour</span></h1></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link" href="index.html">Home</a>
-            <a class="nav-link" href="products.html">Products</a>
-            <a class="nav-link" href="contact.html">Contact</a>
-            <a class="nav-link" href="author.html">Author</a>
+  <meta name="keywords"
+    content="pc, gaming pc, gaming configuration, gaming components, budget, budget pc, 1080p, 1440p, 4k">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+  <link href="assets/css/responsive.css" rel="stylesheet" type="text/css">
+  <link href="assets/img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <title>PC Harbour - The Best PC configurations!</title>
+</head>
+
+<body>
+  <div id="header"></div>
+  <section id="contact" class="cs-bg-goldenrod">
+    <div class="container-fluid">
+      <div class="row justify-content-center align-items-center text-white">
+        <form method="get" action="#" class="col-lg-5 col-md-5 col-sm-10 mt-5" id="contactForm">
+          <div class="mb-3"> <label for="Email" class="form-label">Email address</label> <input type="email"
+              class="form-control" id="Email" placeholder="Your email">
+            <div class="form-text text-danger d-none" id="emailError"></div>
           </div>
-        </div>
+          <div class="mb-3"> <label for="phoneNumber" class="form-label">Phone number</label> <input type="text"
+              class="form-control" id="phoneNumber" placeholder="Your phone number">
+            <div class="form-text text-danger d-none" id="phoneError"></div>
+          </div>
+          <div class="mb-3"> <label for="prebuilt" class="form-label">Choose your PC:</label> <select name="prebuilt"
+              id="prebuilt" class="form-control">
+              <option value="0">Choose...</option>
+              <optgroup label="Gaming PCs">
+                <option value="500G">$500 Gaming PC</option>
+                <option value="650G">$650 APU Gaming PC</option>
+                <option value="700G">$700 Gaming PC</option>
+                <option value="800G">$800 Gaming PC</option>
+                <option value="1000G">$1000 Gaming PC</option>
+                <option value="1200G">$1200 Gaming PC</option>
+                <option value="1500G">$1500 Gaming PC</option>
+                <option value="1800G">$1800 Gaming PC</option>
+                <option value="2000G">$2000 Gaming PC</option>
+              </optgroup>
+              <optgroup label="Multimedia and Productivity PCs">
+                <option value="1200P">$1200 Multimedia and Productivity PC</option>
+                <option value="1500P">$1500 Multimedia and Productivity PC</option>
+                <option value="2000P">$2000 Multimedia and Productivity PC</option>
+              </optgroup>
+            </select>
+            <div class="form-text text-danger d-none" id="pcError"></div>
+          </div>
+          <div class="mb-3"> <label for="pcOptions" class="form-label">Add or change components</label> <textarea
+              name="pcOptions" id="pcOptions" placeholder="You can add more options or change components"
+              class="form-control"></textarea>
+            <div id="pcOptionsHelp" class="form-text text-white"> <em>Changes depend on the availability of components
+                in our store.</em> </div>
+          </div>
+          <div class="mb-3"> <label for="acquirementMethod" class="form-label">How would you like to acquire your
+              PC?</label> <br> <input type="radio" class="form-check-input" name="acquirementMethod" id="delivery"
+              value="Delivery"> <label for="delivery" class="form-check-label me-3">Delivery</label> <input type="radio"
+              class="form-check-input" name="acquirementMethod" id="storePickup" value="Personalpickup"> <label
+              for="storePickup" class="form-check-label">Personal pickup</label>
+            <div class="form-text text-danger d-none" id="acquireError"></div>
+          </div>
+          <div class="mb-3 d-none" id="addressContainer"> <label for="address" class="form-label">Address</label> <input
+              type="text" class="form-control" id="address" placeholder="Your address (street, city, zip code)">
+            <div class="form-text text-danger d-none" id="addressError"></div>
+          </div>
+          <div class="mb-3 d-none" id="paymentContainer"> <label for="paymentMethod" class="form-label">Select payment
+              method on delivery</label> <br> <input type="radio" class="form-check-input" name="paymentMethod"
+              id="cash" value="Cash"> <label for="cash" class="form-check-label me-3">Cash</label> <input type="radio"
+              class="form-check-input" name="paymentMethod" id="card" value="Card"> <label for="card"
+              class="form-check-label">Card</label>
+            <div class="form-text text-danger d-none" id="paymentError"></div>
+          </div>
+          <div class="mb-3"> <input type="submit" class="form-control btn cs-bg-white cs-text"
+              value="Submit your order"> </div>
+        </form>
       </div>
-    </nav>
-    <section id="contact" class="cs-bg-goldenrod">
-        <div class="container-fluid">
-            <div class="row justify-content-center align-items-center text-white">
-                <form method="get" action="#" class="col-lg-5 col-md-5 col-sm-10 mt-5">
-                    <div class="mb-3">
-                      <label for="Email" class="form-label">Email address</label>
-                      <input type="email" class="form-control" id="Email" placeholder="Your email">
-                    </div>
-                    <div class="mb-3">
-                        <label for="phoneNumber" class="form-label">Phone number</label>
-                        <input type="text" class="form-control" id="phoneNumber" placeholder="Your phone number">
-                    </div>
-                    <div class="mb-3">
-                        <label for="prebuilt" class="form-label">Choose your PC:</label>
-                        <select name="prebuilt" id="prebuilt" class="form-control">
-                            <option value="0">Choose...</option>
-                            <optgroup label="Gaming PCs">
-                                <option value="500G">$500 Gaming PC</option>
-                                <option value="650G">$650 APU Gaming PC</option>
-                                <option value="700G">$700 Gaming PC</option>
-                                <option value="800G">$800 Gaming PC</option>
-                                <option value="1000G">$1000 Gaming PC</option>
-                                <option value="1200G">$1200 Gaming PC</option>
-                                <option value="1500G">$1500 Gaming PC</option>
-                                <option value="1800G">$1800 Gaming PC</option>
-                                <option value="2000G">$2000 Gaming PC</option>
-                            </optgroup>
-                            <optgroup label="Multimedia and Productivity PCs">
-                                <option value="1200P">$1200 Multimedia and Productivity PC</option>
-                                <option value="1500P">$1500 Multimedia and Productivity PC</option>
-                                <option value="2000P">$2000 Multimedia and Productivity PC</option>
-                            </optgroup>
-                        </select>
-                    </div>
-                    <div class="mb-3">
-                        <textarea name="pcOptions" id="pcOptions" placeholder="You can add more options or change components" class="form-control"></textarea>
-                    </div>
-                    <div class="mb-3">
-                      <input type="submit" class="form-control btn cs-bg-white cs-text" value="Submit your order"></button>
-                    </div>
-                    <button type="button" class="form-control btn cs-bg-white cs-text" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                        Save your order for later
-                      </button>
-                  </form>
-            </div>
-        </div>
-    </section>
-    <div class="modal fade cs-text" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h1 class="modal-title fs-5" id="exampleModalLabel">Order saved!</h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>
-                    Your order has been saved for later! You can come back to this order and change it to your liking.
-                </p>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn cs-bg-white cs-text" data-bs-dismiss="modal">Confirm</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    <footer class="container-fluid cs-bg-black">
-        <div class="w-90 mx-auto py-5">
-          <div class="row">
-            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb-3 justify-content-center">
-              <h3 class="text-capitalize text-white">Quick links</h3>
-              <div class="list-group">
-                <a href="index.html" class="list-group-item list-group-item-action text-capitalize">
-                  <i class="fa-solid fa-arrow-right"></i> Home
-                </a>
-                <a href="products.html" class="list-group-item list-group-item-action text-capitalize">
-                  <i class="fa-solid fa-arrow-right"></i> Products
-                </a>
-                <a href="contact.html" class="list-group-item list-group-item-action text-capitalize">
-                  <i class="fa-solid fa-arrow-right"></i> Contact
-                </a>
-                <a href="author.html" class="list-group-item list-group-item-action text-capitalize">
-                  <i class="fa-solid fa-arrow-right"></i> Author
-                </a>
-              </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-3 mb-3 justify-content-center">
-              <h3 class="text-capitalize text-white">Socials</h3>
-              <div class="list-group">
-                <a href="https://www.instagram.com/knskr_/" target="_blank" class="list-group-item list-group-item-action text-capitalize">
-                  <i class="fa-brands fa-instagram"></i> Instagram
-                </a>
-                <a href="https://www.linkedin.com/in/%D1%84%D0%B8%D0%BB%D0%B8%D0%BF-%D0%BA%D0%BE%D0%BD%D0%B5%D1%81%D0%BA%D0%B8-8314b42b7/" target="_blank" class="list-group-item list-group-item-action text-capitalize">
-                  <i class="fa-brands fa-linkedin-in"></i> LinkedIn
-                </a>
-                <a href="https://github.com/knskr" target="_blank" class="list-group-item list-group-item-action text-capitalize">
-                  <i class="fa-brands fa-github"></i> Github
-                </a>
-              </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-3 mb-3 justify-content-center">
-              <h3 class="text-capitalize text-white">Get in touch</h3>
-              <div class="list-group">
-                <a href="#" class="list-group-item list-group-item-action">
-                    Zdravka Čelara 16, Belgrade, Serbia
-                </a>
-                <a href="#" class="list-group-item list-group-item-action">
-                  filipkoneski.gimkm&#64;gmail&#46;com
-                </a>
-                <a href="#" class="list-group-item list-group-item-action text-capitalize">
-                  +381 64 123 45 67
-                </a>
-              </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-3 justify-content-center">
-              <h3 class="text-capitalize text-white">Repos/docs</h3>
-              <div class="mc-social d-flex">
-                <div class="cs-icon cs-icon-gold">
-                  <a href="https://github.com/knskr/PCHarbour.github.io" target="_blank" class="text-white"><i class="fa-brands fa-github"></i></a>
-                </div>
-                <div class="cs-icon cs-icon-gold mx-1">
-                  <a href="assets/css/responsive.css" target="_blank" class="text-white"><i class="fa-brands fa-css3-alt"></i></a>
-                </div>
-                <div class="cs-icon cs-icon-gold me-1">
-                  <a href="rss.xml" target="_blank" class="text-white"><i class="fa-solid fa-rss"></i></a>
-                </div>
-                <div class="cs-icon cs-icon-gold">
-                  <a href="sitemap.xml" target="_blank" class="text-white"><i class="fa-solid fa-sitemap"></i></a>
-                </div>
-              </div>      
-            </div>
-          </div>
-        </div>
-        <div class="cs-line"></div>
-        <div class="w-90 mx-auto">
-          <div class="row py-2">
-            <div class="col-12 text-center text-white">
-              <p>&copy; All Rights Reserved. Designed by Filip Koneski, 2024. </p>
-            </div>
-          </div>
-        </div>
-      </footer>
-    </body>
-  </html>
+    </div>
+  </section>
+  <div id="footer"></div>
+  <script src="assets/js/layout.js"></script>
+  <script src="assets/js/contact.js"></script>
+</body>
+
+</html>
