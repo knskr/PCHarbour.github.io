@@ -43,7 +43,7 @@ document.getElementById("footer").innerHTML = `
         <div class="col-12 col-md-6 col-lg-3 mb-3 justify-content-center">
           <h3 class="text-capitalize text-white">Socials</h3>
           <div class="list-group">
-            <a href="https://www.instagram.com/knskr_/" target="_blank" class="list-group-item list-group-item-action text-capitalize">
+            <a href="https://www.instagram.com/koneskara/" target="_blank" class="list-group-item list-group-item-action text-capitalize">
               <i class="fa-brands fa-instagram"></i> Instagram
             </a>
             <a href="https://www.linkedin.com/in/%D1%84%D0%B8%D0%BB%D0%B8%D0%BF-%D0%BA%D0%BE%D0%BD%D0%B5%D1%81%D0%BA%D0%B8-8314b42b7/" target="_blank" class="list-group-item list-group-item-action text-capitalize">
@@ -100,3 +100,4 @@ document.getElementById("footer").innerHTML = `
     </div>
   </footer>
 `;
+
