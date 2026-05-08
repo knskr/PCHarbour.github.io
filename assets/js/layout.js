@@ -14,7 +14,7 @@ document.getElementById("header").innerHTML = `
           <a class="nav-link" href="products.html">Products</a>
           <a class="nav-link" href="contact.html">Contact</a>
           <a class="nav-link" href="author.html">Author</a>
-          <a href="dokumentacija.pdf" target="_blank" class="nav-link">Documentation</a>
+          <a href="dokumentacija.pdf" target="_blank" class="nav-link">DOC</a>
         </div>
       </div>
     </div>
